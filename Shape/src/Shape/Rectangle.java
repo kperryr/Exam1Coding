@@ -1,6 +1,9 @@
 package Shape;
 
 public class Rectangle extends Shape implements Comparable  {
+
+	private int iWidth;
+	private int iLength;
 	
 	public Rectangle(int iWidth, int iLength) {
 		super();
@@ -8,8 +11,6 @@ public class Rectangle extends Shape implements Comparable  {
 		this.iLength = iLength;
 	}
 
-	private int iWidth;
-	private int iLength;
 
 	public int getiWidth() {
 		return iWidth;
